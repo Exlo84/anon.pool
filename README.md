@@ -1,4 +1,4 @@
-# core-pool
+# anon.pool
 
 ## Features
 
@@ -22,13 +22,13 @@ Dependencies:
 
 **I highly recommend to use Ubuntu 20.04 LTS.**
 
-First install  [core-geth](https://github.com/etclabscore/core-geth/releases).
+First install  [octa-geth](https://github.com/octaspace-project/go-octa).
 
 Clone & compile:
 
     git config --global http.https://gopkg.in.followRedirects true
-    git clone https://github.com/etclabscore/core-pool.git
-    cd core-pool
+    git clone https://github.com/Exlo84/anon.pool.git -b Octa.Space
+    cd anon.pool
     make
 
 Install redis-server:
@@ -106,11 +106,11 @@ otherwise you will get errors on start because of JSON comments.**
   // Set to the number of CPU cores of your server
   "threads": 2,
   // Prefix for keys in redis store
-  "coin": "etc",
+  "coin": "octa",
   // Give unique name to each instance
   "name": "main",
   // mordor, classic, ethereum, ropsten or ubiq
-  "network": "classic",
+  "network": "octa",
   "proxy": {
     "enabled": true,
 

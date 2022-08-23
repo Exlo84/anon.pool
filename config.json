@@ -2,7 +2,7 @@
 	"threads": 4,
 	"coin": "octa",
 	"name": "main",
-	"network": "ethereum",
+	"network": "octa",
 
 	"proxy": {
 		"enabled": true,
@@ -68,12 +68,12 @@
 	"upstream": [
 		{
 			"name": "main",
-			"url": "http://127.0.0.1:8745",
+			"url": "http://127.0.0.1:8545",
 			"timeout": "10s"
 		},
 		{
 			"name": "backup",
-			"url": "http://127.0.0.2:8745",
+			"url": "http://127.0.0.2:8545",
 			"timeout": "10s"
 		}
 	],
@@ -93,7 +93,7 @@
 		"immatureDepth": 20,
 		"keepTxFees": false,
 		"interval": "10m",
-		"daemon": "http://127.0.0.1:8745",
+		"daemon": "http://127.0.0.1:8545",
 		"timeout": "10s"
 	},
 
@@ -101,7 +101,7 @@
 		"enabled": true,
 		"requirePeers": 5,
 		"interval": "120m",
-		"daemon": "http://127.0.0.1:8745",
+		"daemon": "http://127.0.0.1:8545",
 		"timeout": "10s",
 		"address": "0x99CFa888E8e4EC8e6C4CE9E4fD2a8cBD30b841d9",
 		"gas": "21000",
