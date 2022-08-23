@@ -68,12 +68,6 @@
               }}
             </li>
             <li>{{ $tc('pages.home.mode', 0, { mode: config.mode }) }}</li>
-            <li>
-              {{ $t('pages.home.poweredBy') }}
-              <a href="https://github.com/etclabscore/core-pool" target="_blank"
-                >core-pool</a
-              >.
-            </li>
             <li>{{ $t('pages.home.protocols') }}</li>
           </ul>
         </v-card-text>

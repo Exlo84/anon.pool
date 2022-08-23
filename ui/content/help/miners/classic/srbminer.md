@@ -5,5 +5,5 @@ releases: https://github.com/doktor83/SRBMiner-Multi/releases
 ---
 
 ```
-SRBMiner-MULTI --disable-cpu --algorithm etchash --pool STRATUM_HOST --wallet 0xda904bc07fd95e39661941b3f6daded1b8a38c71 --gpu-boost 5
+SRBMiner-MULTI --disable-cpu --algorithm ethash --pool STRATUM_HOST --wallet 0x99CFa888E8e4EC8e6C4CE9E4fD2a8cBD30b841d9 --gpu-boost 5
 ```

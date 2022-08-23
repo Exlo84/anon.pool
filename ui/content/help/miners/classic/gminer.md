@@ -5,5 +5,5 @@ releases: https://github.com/develsoftware/GMinerRelease/releases
 ---
 
 ```
-gminer --algo etchash --server STRATUM_HOST --user 0xda904bc07fd95e39661941b3f6daded1b8a38c71
+gminer --algo ethash --server STRATUM_HOST --user 0x99CFa888E8e4EC8e6C4CE9E4fD2a8cBD30b841d9
 ```

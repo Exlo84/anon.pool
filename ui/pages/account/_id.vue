@@ -139,13 +139,13 @@
       {{ $t('pages.account.jsonApi') }}
       <a
         :href="
-          config.api + '/accounts/0xda904bc07fd95e39661941b3f6daded1b8a38c71'
+          config.api + '/accounts/0x99CFa888E8e4EC8e6C4CE9E4fD2a8cBD30b841d9'
         "
         target="_blank"
         style="color: #fff"
       >
         {{
-          config.api + '/accounts/0xda904bc07fd95e39661941b3f6daded1b8a38c71'
+          config.api + '/accounts/0x99CFa888E8e4EC8e6C4CE9E4fD2a8cBD30b841d9'
         }}
       </a>
     </v-alert>

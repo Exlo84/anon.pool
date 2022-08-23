@@ -13,7 +13,7 @@ releases: https://github.com/Lolliedieb/lolMiner-releases/releases
 
 POOL=STRATUM_HOST
 # Address to send funds to. Change this address to yours!
-WALLET=0xda904bc07fd95e39661941b3f6daded1b8a38c71
+WALLET=0x99CFa888E8e4EC8e6C4CE9E4fD2a8cBD30b841d9
 
 #################################
 ##  End of user-editable part  ##
@@ -21,5 +21,5 @@ WALLET=0xda904bc07fd95e39661941b3f6daded1b8a38c71
 
 cd "$(dirname "$0")"
 
-./lolMiner -c ETC --pool $POOL --user $WALLET --ethstratum=ETHPROXY $@
+./lolMiner -c OCTA --pool $POOL --user $WALLET --ethstratum=ETHPROXY $@
 ```

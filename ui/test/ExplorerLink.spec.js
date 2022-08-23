@@ -26,10 +26,10 @@ describe('ExplorerLink.vue', () => {
         config: {
           network: 'classic',
           explorer: {
-            url: 'https://blockscout.com',
+            url: 'https://explorer.octa.space',
             type: 'blockscout',
           },
-          symbol: 'ETC',
+          symbol: 'OCTA',
         },
       },
     })
